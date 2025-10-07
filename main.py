@@ -1,6 +1,8 @@
 import config
 import telebot
 
+## Комментарий
+
 bot = telebot.TeleBot(config.token)
 
 @bot.message_handler(content_types=["text"])
